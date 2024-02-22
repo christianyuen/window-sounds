@@ -241,3 +241,13 @@ header p {
     }
 }
 
+@media (min-height: 400px) {
+    #mobile-video {
+        visibility: visible;
+    }
+
+    #mobile-video-wide {
+        visibility: hidden;
+    }
+}
+
