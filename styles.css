@@ -241,7 +241,7 @@ header p {
     }
 }
 
-@media (min-height: 400px) {
+@media (max-height: 401px) {
     #mobile-video {
         visibility: visible;
     }
