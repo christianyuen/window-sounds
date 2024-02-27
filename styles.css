@@ -23,6 +23,10 @@ body {
     background-color: black;
 }
 
+.gucci-video {
+    filter: invert(1);
+}
+
 /* LANDING PAGE */
 #video {
     width: 100%;
@@ -39,6 +43,8 @@ header {
     top: 0;
     left: 0;
     padding: 20px 25px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .time {
@@ -126,6 +132,8 @@ header p {
 /* DROPDOWN MENU */
 .contact {
     display: none;
+    text-align: center;
+    color: white;
 }
 
 .dropdown {
@@ -203,17 +211,43 @@ header p {
     /* z-index: 20; */
 }
 
+/* ABOUT PAGE */
+.about-container {
+    right: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    padding: 0 20px;
+}
 
+.about-container h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.about-container p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 850px) {
     .description-container {
         justify-content: center;
         flex-direction: column-reverse;
-        padding-top: 28px;
+        padding-top: 77px;
     }
     .description-container p:first-child {
-        padding-top: 10px;
+        /* padding-top: 5px; */
     }
     .contact {
         display: block;
