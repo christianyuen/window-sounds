@@ -263,6 +263,8 @@ header p {
     }
     #mobile-video {
         visibility: visible;
+        width: 100%;
+        height: 100%;
     }
 }
 
