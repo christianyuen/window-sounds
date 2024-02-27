@@ -192,8 +192,8 @@ header p {
 
 #mobile-video {
     visibility: hidden;
-    /* width: 100%; */
     position: absolute;
+    width: 100%;
     top: 0;
     bottom: 0;
     left: 0;
@@ -251,26 +251,6 @@ header p {
         visibility: visible;
     }
 }
-
-/* @media (max-height: 400px) {
-    #mobile-video {
-        visibility: hidden;
-    }
-    #mobile-video-wide {
-        visibility: visible;
-    }
-}
-
-@media (min-height: 401px) {
-    #mobile-video {
-        visibility: visible;
-        width: 100vw;
-    }
-
-    #mobile-video-wide {
-        visibility: hidden;
-    }
-} */
 
 
 
