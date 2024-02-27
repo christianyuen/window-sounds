@@ -260,7 +260,7 @@ header p {
     }
     #mobile-video {
         visibility: visible;
-        width: 100dvw;
+        width: 100vw;
         /* height: 100%; */
         top: 0;
         left: 0;
