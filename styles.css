@@ -257,7 +257,7 @@ header p {
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
     #video {
         visibility: hidden;
     }
@@ -266,7 +266,7 @@ header p {
     }
 }
 
-@media (max-height: 400px) {
+/* @media (max-height: 400px) {
     #mobile-video {
         visibility: hidden;
     }
@@ -275,15 +275,28 @@ header p {
     }
 }
 
-/* @media (max-height: 401px) {
+@media (min-height: 401px) {
     #mobile-video {
         visibility: visible;
+        width: 100vw;
     }
 
     #mobile-video-wide {
         visibility: hidden;
     }
 } */
+
+/* @media only screen and (pointer: coarse) and (min-width: 320px) and (max-width: 812px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  } */
 
 
 
